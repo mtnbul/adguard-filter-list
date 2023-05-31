@@ -1,6 +1,6 @@
 {
   "name": "ppfeufer/adguard-filter-list",
-  "description": "DNS block list that can be used for AdGuardHome. (Does not work with Pi-hole)",
+  "description": "DNS block list that can be used for AdGuardHome. ( Added Turkish language to the list below ) (Does not work with Pi-hole)",
   "homepage": "https://github.com/ppfeufer/adguard-filter-list",
   "license": "GPLv3",
   "sources": [
@@ -806,15 +806,77 @@
       ]
     },
     {
-      "name": "HaGeZi's Threat Intelligence Feeds DNS Blocklist",
-      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt",
+      "name": "Turkish - 1",
+      "source": "https://github.com/AdguardTeam/AdguardFilters/blob/master/TurkishFilter/sections/adservers.txt",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
         "Compress"
       ]
-    }
-    ,
+    },
+    {
+      "name": "Turkish - 2",
+      "source": "https://github.com/AdguardTeam/AdguardFilters/blob/master/TurkishFilter/sections/adservers_firstparty.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "Turkish - 3",
+      "source": "https://github.com/AdguardTeam/AdguardFilters/blob/master/TurkishFilter/sections/antiadblock.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "Turkish - 4",
+      "source": "https://github.com/AdguardTeam/AdguardFilters/blob/master/TurkishFilter/sections/css_extended.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "Turkish - 5",
+      "source": "https://github.com/AdguardTeam/AdguardFilters/blob/master/TurkishFilter/sections/general_elemhide.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    } ,
+    {
+      "name": "Turkish - 6",
+      "source": "https://github.com/AdguardTeam/AdguardFilters/blob/master/TurkishFilter/sections/general_extensions.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "Turkish - 7",
+      "source": "https://github.com/AdguardTeam/AdguardFilters/blob/master/TurkishFilter/sections/general_url.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
+    {
+      "name": "Turkish - 8",
+      "source": "https://github.com/AdguardTeam/AdguardFilters/blob/master/TurkishFilter/sections/specific.txt",
+      "type": "adblock",
+      "transformations": [
+        "RemoveComments",
+        "Compress"
+      ]
+    },
     {
       "name": "FR: French filters RedFlagDomains",
       "source": "https://dl.red.flag.domains/red.flag.domains.txt",
